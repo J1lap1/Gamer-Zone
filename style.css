@@ -192,8 +192,6 @@ font-weight: 500;
 
 /* SHOWCASE STYLES */
 
-.showcase
-
 .showcase-title{
     font-size: 48px;
     font-weight: bold;
@@ -443,6 +441,222 @@ footer{
 
 .copyright{
     color: rgba(255, 255, 255, 0.619);
+}
+
+
+/* RESPONSIVE STYLE */
+
+@media screen and (max-width:576px) {
+    nav{
+        display: flex;
+        flex-direction: column;
+        box-shadow: none;
+        row-gap: 30px;
+        margin-top: 50px;
+        padding-bottom: 30px;
+    }
+
+    .main-icon{
+        font-size: 40px;
+    }
+
+
+
+    .nav-features{
+        flex-direction: column;
+        row-gap: 20px;
+    }
+
+    .follow{
+        font-size: 10px;
+        padding: 0 1%;
+    }
+
+    .follow > img{
+        width:  30px;
+        height: 30px;
+    }
+
+    .banner{
+        flex-direction: column-reverse;
+        row-gap: 100px;
+        padding-bottom: 40px;
+    }
+
+    .banner > img{
+        width: 98%;
+    }
+
+    .banner-buttons{
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .intro{
+        flex-direction: column;
+        padding-bottom: 40px;
+        
+    }
+
+    .intro > img{
+        width: 100%;
+        margin: 10px;
+    }
+
+    .intro-info{
+        align-items: center;
+        row-gap: 15px;
+    }
+
+    .intro-info > p{
+        width: 95%;
+        text-align: center;
+    }
+
+    .intro-info > h4{
+        text-align: center;
+    }
+    
+    .showcase-title{
+        font-size: 35px;
+    }
+
+    .showcase-gallery{
+        flex-direction: column;
+        align-items: center;
+        row-gap: 25px;
+    }
+
+    .showcase-gallery > div > h5{
+        font-size: 20px;
+    }
+
+    .showcase-gallery img{
+        width: 100%;
+        /* padding: 2%; */
+    }
+
+    .play-online{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .play-online-info{
+        align-items: center;
+    }
+    
+    .play-online-info-title, .play-online-info-subtitle{
+        /* font-size: 10px; */
+        text-align: center;
+
+    }
+
+    .play-online-info > h5{
+        text-align: center;
+        font-size: 18px;
+    }
+
+    .play-online-images{
+        width: 80%;
+    }
+
+    .play-online-images > img{
+        width: 80%;
+    }
+
+    .play-online-floater > img{
+        width: 70%;
+    }
+
+    .play-anywhere{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .play-anywhere-info{
+        align-items: center;
+    }
+    
+    .play-anywhere-info-title, .play-anywhere-info-subtitle{
+        /* font-size: 10px; */
+        text-align: center;
+
+    }
+
+    .play-anywhere-info > h5{
+        text-align: center;
+        font-size: 18px;
+    }
+
+    .play-anywhere-images{
+        width: 80%;
+    }
+
+    .play-anywhere-images > img{
+        width: 90%;
+        margin-bottom: 80px;
+    }
+
+    .play-anywhere-floater > img{
+        /* width: 20%; */
+        left: 500;
+        bottom: 0;
+        width: 230px;
+    }
+
+    .careers{
+        flex-direction: column;
+    }
+
+    .careers-title-info{
+        width: 90%;
+        padding: 50px 0;
+    }
+
+    .careers-title-info > h1{
+        font-size: 34px;
+    }
+
+    .careers-title-info > p{
+        width: 100%;
+        font-size: 12px;
+    }
+
+    .post-location-list{
+        font-size: 12px;
+    }
+
+    #wht-btn{
+        font-size: 12px;
+    }
+
+    .careers > img{
+        width: 100%;
+        
+    }
+
+    .facility-catalogue div{
+        font-size:8px;
+        width:25%;
+    }
+
+    .facility-catalogue div > img{
+        width: 30px;
+    }
+
+    .services{
+        flex-wrap: wrap;
+        justify-content: center;
+        column-gap: 90px;
+        row-gap: 30px;
+    }
+
+    .socials{
+
+    }
+
+
 }
 
 
